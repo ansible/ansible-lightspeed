@@ -1,0 +1,5 @@
+# Python stuff
+venv
+# Docs build artifacts
+site
+.cache
