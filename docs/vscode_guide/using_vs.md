@@ -18,11 +18,11 @@ To generate a recommendation from Project Wisdom:
      1. Click on the language mode in the bottom right corner of the VS Code editor status bar and set to `Ansible`. If you do not see this section in your editor, you can also select **Configure Language Mode** from the **Command Palette**.
 3. Verify that you see an entry for `Wisdom` in your status bar. If `Ansible` is already selected as the language, then you may need to reselect the language if `Wisdom` does not appear.
   
-   **_NOTE:_** If you see an error message about missing `ansible-lint`, you can install the missing module or disable the linter in **Settings** under **Ansible>Validation>Lint:**.
+   **_NOTE:_** If you see an error message about missing `ansible-lint`, you can install the missing module or disable the linter in **Settings** under **Ansible>Validation>Lint**.
 
-4. Start creating your playbook. Once you have added a task name and hit **Enter**, the Project Wisdom service is engaged. You will see a `Processing` status indicator in the bottom right while Project Wisdom is preparing your suggestion.
+4. Start creating your playbook. Once you have added a task name and press **Enter**, the Project Wisdom service is engaged. You will see a `Processing` status indicator in the bottom right while Project Wisdom is preparing your suggestion.
 
-   **_NOTE:_** You will not see a suggestion until you hit **Enter**.
+   **_NOTE:_** You will not see a suggestion until you press **Enter**.
 
 5. Once presented with a suggestion, hit `tab` to accept the recommendation or `esc` to ignore it.
 
