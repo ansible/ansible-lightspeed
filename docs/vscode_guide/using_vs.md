@@ -24,7 +24,7 @@ To generate a recommendation from Project Wisdom:
 
    **_NOTE:_** You will not see a suggestion until you press **Enter**.
 
-5. Once presented with a suggestion, hit `tab` to accept the recommendation or `esc` to ignore it.
+5. Once presented with a suggestion, press `tab` to accept the recommendation or `esc` to ignore it.
 
 ## Improving the recommended guidance
 
