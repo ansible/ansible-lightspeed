@@ -42,13 +42,14 @@ nav:
       - introduction.md
       - contributing.md
       - machine_learning.md
-      - tos.md
   - VS Code Guide:
       - index: vscode_guide/index.md
       - vscode_guide/installing_vs.md
       - vscode_guide/using_vs.md
   - FAQ:
       - index: faq/index.md
+  - Terms of Service:
+      - index: tos/index.md
 
 plugins:
   - autorefs

@@ -37,4 +37,4 @@ The Ansible VS Code extension, with Project Wisdom features enabled, automatical
 
 [galaxy]: https://galaxy.ansible.com
 [sign-up-form]: https://www.redhat.com/en/engage/project-wisdom#sign-up
-[terms]: tos.md
+[terms]: tos/index.md
