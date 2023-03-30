@@ -4,7 +4,7 @@ At this time, the Project Wisdom service is only accessible through the Ansible 
 
 ## Providing feedback on the service
 
-Project Wisdom is designed to be improved through feedback on the quality of its suggestions. Technical details of user experiences with Wisdom can be useful in informing further improvements. We request that all Project Wisdom users provide constructive feedback to help improve both the recommendations and user experience. Feedback can be submitted directly through the VS Code extension or to the [Project Wisdom Matrix room: `#project-wisdom:ansible.com`][matrix-room]. A VS Code extension setting enables a user to opt out of contributing this feedback to the model.  The VS Code extension setting, when enabled, will provide feedback such as which suggestions have been accepted by the user and noting particular details that the user has needed to adjust to obtain a satisfactory result.
+Project Wisdom is designed to be improved through feedback on the quality of its suggestions. Technical details of user experiences with Wisdom can be useful in informing further improvements. We request that all Project Wisdom users provide constructive feedback to help improve both the recommendations and user experience. Feedback can be submitted directly through the VS Code extension or to the [Project Wisdom Matrix room: `#project-wisdom:ansible.com`][matrix-room].
 
 ## Getting a recommendation
 

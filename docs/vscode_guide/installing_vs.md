@@ -4,7 +4,7 @@ You need the latest version of the Ansible VS Code extension to access Project W
 
 Prerequisites
 
-* You have [installed VS Code][vs-code].
+* You have [installed VS Code][vs-code]. A minimum version of 1.70.1 is required.
 
 To install this extension:
 
@@ -41,9 +41,12 @@ To configure the Ansible VS Code extension for Project Wisdom:
 4. Check all of the following boxes if they are not already selected:
     1. **Ansible>Wisdom**: Enabled.
     2. **Ansible>Wisdom>Suggestions**: Enabled.
-5. In **Ansible>Wisdom: Base Path**, enter the following: [https://pilot.wisdom.testing.ansible.com/][base-path].
-6. In **Ansible>Wisdom: Auth Token**, paste the authentication token you collected above.
-7. Close the **Settings** tab.
+5. In **Ansible>Wisdom: Base Path**, enter the following: [http://c.ai.ansible.redhat.com/][base-path].
+6. Close the **Settings** tab.
+7. Open the **Ansible** side bar and click **Connect**.
+8. Follow the prompts to sign in to Project Wisdom using your GitHub credentials.
+9. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Project Wisdom on your behalf.
+10. Upon successful completion of the login flow, you should see a “Logged in as <your github id>” message in the Ansible side bar.
 
 [vs-code]: https://code.visualstudio.com/
 [sign-up]: ../introduction.md#signing-up-for-project-wisdom
