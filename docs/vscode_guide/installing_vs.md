@@ -36,7 +36,7 @@ To configure the Ansible VS Code extension for Project Wisdom:
    code .
    ```
 
-2. Click **File->Preferences->Settings**.
+2. Click **File>Preferences>Settings**.
 3. In the Search settings bar, type `wisdom`.
 4. Check all of the following boxes if they are not already selected:
     1. **Ansible>Wisdom**: Enabled.
