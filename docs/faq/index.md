@@ -18,7 +18,7 @@ Red Hat does not claim any copyright or other intellectual property rights in th
 
 Project Wisdom is designed to be improved through feedback on the quality of its suggestions.  Technical details of user experiences with Wisdom can be useful in informing further improvements.  For example, identifying which Wisdom suggestions have been accepted by the user, noting particular details that the user has needed to adjust, etc.
 
-This feedback is obtained by way of the Wisdom VS Code extension and is used to improve the Wisdom service. A VS Code extension setting enables a user to opt-out of contributing this feedback to the model.
+This feedback is obtained by way of the Wisdom VS Code extension and is used to improve the Wisdom service.
 
 [galaxy]: https://galaxy.anisble.com
 [gh-lince-api]: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
