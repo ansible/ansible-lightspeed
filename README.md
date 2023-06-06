@@ -1,4 +1,4 @@
-# Project Wisdom for Ansible
+# Ansible Lightspeed with Watson Code Assistant
 
 ## Building docs
 
