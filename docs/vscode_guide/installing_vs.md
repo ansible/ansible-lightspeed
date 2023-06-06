@@ -1,6 +1,6 @@
 # Installing the Ansible VS Code extension
 
-You need the latest version of the Ansible VS Code extension to access Project Wisdom functionality.
+You need the latest version of the Ansible VS Code extension to access Ansible Lightspeed with Watson Code Assistant functionality.
 
 Prerequisites
 
@@ -26,9 +26,7 @@ To verify your installation:
 
 ## Configuring the Ansible VS Code extension
 
-**_NOTE:_** Access to this new service is currently open to participants through a rolling release.  If you wish to sign up for access, see [Service Sign-Up][sign-up] for details.
-
-To configure the Ansible VS Code extension for Project Wisdom:
+To configure the Ansible VS Code extension for Ansible Lightspeed with Watson Code Assistant:
 
 1. Open VS Code.
 
@@ -37,17 +35,16 @@ To configure the Ansible VS Code extension for Project Wisdom:
    ```
 
 2. Click **File>Preferences>Settings**.
-3. In the Search settings bar, type `wisdom`.
+3. In the Search settings bar, type `lightspeed`.
 4. Check all of the following boxes if they are not already selected:
-    1. **Ansible>Wisdom**: Enabled.
-    2. **Ansible>Wisdom>Suggestions**: Enabled.
-5. In **Ansible>Wisdom: Base Path**, enter the following: [http://c.ai.ansible.redhat.com/][base-path].
+    1. **Ansible>Lightspeed**: Enabled.
+    2. **Ansible>Lightspeed>Suggestions**: Enabled.
+5. In **Ansible>Lightspeed: Base Path**, enter the following: [http://c.ai.ansible.redhat.com/][base-path].
 6. Close the **Settings** tab.
 7. Open the **Ansible** side bar and click **Connect**.
-8. Follow the prompts to sign in to Project Wisdom using your GitHub credentials.
-9. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Project Wisdom on your behalf.
+8. Follow the prompts to sign in to Ansible Lightspeed with Watson Code Assistant using your GitHub credentials.
+9. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Ansible Lightspeed with Watson Code Assistant on your behalf.
 10. Upon successful completion of the login flow, you should see a “Logged in as <your github id>” message in the Ansible side bar.
 
 [vs-code]: https://code.visualstudio.com/
-[sign-up]: ../introduction.md#signing-up-for-project-wisdom
-[base-path]: https://pilot.wisdom.testing.ansible.com/
+[base-path]: http://c.ai.ansible.redhat.com/
