@@ -1,0 +1,19 @@
+name: test
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install dependencies
+      run: |
+        python3 -m venv venv
+        source venv/bin/activate
+        python3 -m pip install -r docs/requirements.txt
+    - name: Build docs
+      run: |
+        mkdocs build
