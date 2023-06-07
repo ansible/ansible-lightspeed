@@ -1,7 +1,7 @@
 ---
-site_name: Project Wisdom for Ansible
-site_url: https://project-wisdom.readthedocs.io/
-repo_url: https://github.com/ansible/project-wisdom
+site_name: Ansible Lightspeed with Watson Code Assistant
+site_url: https://ansible-lightspeed.readthedocs.io/
+repo_url: https://github.com/ansible/ansible-lightspeed
 edit_uri: blob/main/docs/
 docs_dir: docs
 strict: true
@@ -37,7 +37,7 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Project Wisdom for Ansible:
+  - Ansible Lightspeed with Watson Code Assistant:
       - home: index.md
       - introduction.md
       - contributing.md
