@@ -42,7 +42,7 @@ you test the Ansible Lightspeed with Watson Code Assistant service. To access th
 “Lightspeed” on the right-hand side of the VS Code status bar and click “Take Survey”.
 
 After completing the survey, you have the opportunity to provide general feedback. You also can
-contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.com`][matrix-room].
+contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.im`][matrix-room].
 
 ## What information is sent from VS Code to train the model?
 Personal information in the telemetry data is removed and anonymized before being sent to train
@@ -75,9 +75,9 @@ The Ansible VS Code extension provides a Contact Us link on the right-hand side 
 Status bar. To send an email via the Contact Us button, click on Lightspeed and then on the
 Contact Us button.
 
-Alternatively, contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.com`][matrix-room].
+Alternatively, contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.im`][matrix-room].
 
 
 [galaxy]: https://galaxy.anisble.com
 [gh-lince-api]: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
-[matrix-room]: https://matrix.to/#/#ansible-lightspeed:ansible.com
+[matrix-room]: https://matrix.to/#/#ansible-lightspeed:ansible.im
