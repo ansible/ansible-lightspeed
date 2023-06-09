@@ -1,6 +1,6 @@
 ---
 site_name: Ansible Lightspeed with Watson Code Assistant
-site_url: https://ansible-lightspeed.readthedocs.io/
+site_url: https://docs.ai.ansible.redhat.com/
 repo_url: https://github.com/ansible/ansible-lightspeed
 edit_uri: blob/main/docs/
 docs_dir: docs
