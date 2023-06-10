@@ -47,7 +47,7 @@ To configure the Ansible VS Code extension for Ansible Lightspeed with Watson Co
 7. Open the **Ansible** side bar icon on the left-hand side of the Visual Studio Code interface and click **Connect**.
 8. Follow the prompts to sign in to Ansible Lightspeed with Watson Code Assistant using your GitHub credentials.
 9. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Ansible Lightspeed with Watson Code Assistant on your behalf.
-10. Upon successful completion of the login flow, you should see a “Logged in as <your github id>” message in the Ansible side bar.
+10. Upon successful completion of the login flow, you should see a “Logged in as <your GitHub id>” message in the Ansible side bar.
 
 [vs-code]: https://code.visualstudio.com/
 [base-path]: http://c.ai.ansible.redhat.com/
