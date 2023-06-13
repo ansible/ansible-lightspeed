@@ -36,7 +36,12 @@ user, noting particular details that the user has needed to adjust, etc.
 
 This feedback is obtained by way of the Ansible Lightspeed with Watson Code Assistant VS Code extension and is used to improve the Ansible Lightspeed with Watson Code Assistant service.
 
+## Can Ansible Lightspeed with Watson Code Assistant generate Ansible Playbooks in the closed beta?
+
+No. Ansible Lightspeed with Watson Code Assistant only generates Ansible tasks in Tech Preview.
+
 ## How do I provide general feedback?
+
 The Ansible VS Code extension links a sentiment survey which we encourage you to complete as
 you test the Ansible Lightspeed with Watson Code Assistant service. To access the survey, click
 “Lightspeed” on the right-hand side of the VS Code status bar and click “Take Survey”.
@@ -45,6 +50,7 @@ After completing the survey, you have the opportunity to provide general feedbac
 contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.im`][matrix-room].
 
 ## What information is sent from VS Code to train the model?
+
 Personal information in the telemetry data is removed and anonymized before being sent to train
 the model. The telemetry data includes, but is not limited to the following:
 
@@ -54,29 +60,51 @@ the model. The telemetry data includes, but is not limited to the following:
 * The Ansible playbook file name.
 
 ## What data sources are used to train the Watson Code Assistant model?
+
 The Watson Code Assistant model gathers training data from Ansible Galaxy, GitHub, and other
 open sources of data. Ansible Galaxy users can opt-out of their Ansible Galaxy namespaces that
 can be used to train the Watson Code Assistant model. Please refer to the Contributing section in
 this document for more information on Ansible Galaxy.
 
 ## How long will it take before I see my feedback improving the model?
+
 Training the Watson Code Assistant model with the telemetry data is resource-intensive. IBM
 Research intends to retrain the model at a cadence allowing noticeable model improvements
 between model versions.
 
 ## How do we address potentially sensitive information in telemetry data?
+
 The Ansible VS Code extension does not collect personal user information. Ansible-related data,
 such as Ansible playbook content, is anonymized. Potentially sensitive information, such as
 identifiable personal information, credentials, or key information, is removed before being sent to
 train the model.
 
+## Can I get different responses for the same prompt?
+
+In general, Ansible Lightspeed with Watson Code Assistant should provide the same response for the same prompt.  This behavior may change over time.
+
+## I use a proxy server and I am having trouble with Ansible Lightspeed; what do I do to connect?
+
+The VS Code Ansible extension does not directly implement any networking or communication.  If your organization uses a proxy server, then you will need to ensure that your OS settings, browser settings, and VS Code settings properly implement your proxy server.  The configuration will differ per-organization, and is something that your local IT department may need to assist with. You may want to consider the VS Code proxy documents for starting VS Code with different flags in order to properly configure networking.  
+
+Ansible Lightspeed with Watson Code Assistant will work behind a proxy server provided that the following domains are allowed through the proxy in order for VS Code to communicate with the service.
+
+* `redhat.com`
+* `segment.io`
+* `segment.com`
+
+## What derivatives of VS Code are supported?
+
+* VS Code (production, insiders)
+* VS Codium
+
 ## I need more help. Where can I go?
+
 The Ansible VS Code extension provides a Contact Us link on the right-hand side of VS Code
 Status bar. To send an email via the Contact Us button, click on Lightspeed and then on the
 Contact Us button.
 
 Alternatively, contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.im`][matrix-room].
-
 
 [galaxy]: https://galaxy.anisble.com
 [gh-lince-api]: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
