@@ -90,8 +90,8 @@ The VS Code Ansible extension does not directly implement any networking or comm
 Ansible Lightspeed with Watson Code Assistant will work behind a proxy server provided that the following domains are allowed through the proxy in order for VS Code to communicate with the service.
 
 * `redhat.com`
-* `segment.io`
-* `segment.com`
+* `ai.ansible.redhat.com`
+* `*.ai.ansible.redhat.com`
 
 ## What derivatives of VS Code are supported?
 
