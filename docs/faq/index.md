@@ -36,7 +36,7 @@ user, noting particular details that the user has needed to adjust, etc.
 
 This feedback is obtained by way of the Ansible Lightspeed with Watson Code Assistant VS Code extension and is used to improve the Ansible Lightspeed with Watson Code Assistant service.
 
-## Can Ansible Lightspeed with Watson Code Assistant generate Ansible Playbooks in the closed beta?
+## Can Ansible Lightspeed with Watson Code Assistant generate Ansible Playbooks?
 
 No. Ansible Lightspeed with Watson Code Assistant only generates Ansible tasks in Tech Preview.
 
