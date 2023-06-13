@@ -95,7 +95,8 @@ Ansible Lightspeed with Watson Code Assistant will work behind a proxy server pr
 
 ## What derivatives of VS Code are supported?
 
-* VS Code (production, insiders)
+* VS Code
+* VS Code Insiders
 * VS Codium
 
 ## I need more help. Where can I go?
