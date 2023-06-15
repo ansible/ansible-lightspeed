@@ -10,15 +10,15 @@ We are excited that you are interested in participating in this Tech Preview and
 
 The Tech Preview gives access to a pre-release version of the ECS. The ECS is intended to use an AI model to create Ansible tasks and other Ansible related content, and share related data and information regarding such usage to train and improve the ECS.  
 
-Suggestions by ECS:  Based on your request, the ECS will provide suggested Ansible tasks and other Ansible materials (“Suggestions”). By using the ECS, you agree that any and all Suggestions and any User data input into ECS may be used by International Business Machines Corporation (“IBM”) and its affiliates including Red Hat, Inc. (“Red Hat”), for any purpose without limitation, including to further improve and train the ECS.  
+<u>Suggestions by ECS</u>:  Based on your request, the ECS will provide suggested Ansible tasks and other Ansible materials (“Suggestions”). By using the ECS, you agree that any and all Suggestions and any User data input into ECS may be used by International Business Machines Corporation (“IBM”) and its affiliates including Red Hat, Inc. (“Red Hat”), for any purpose without limitation, including to further improve and train the ECS.  
 
 Suggestions may be similar to material used to train the machine learning model used to provide the ECS. The Suggestions will likely require modifications by User. User should evaluate whether Suggestions are appropriate for User environments. User’s use of Suggestions is at User’s discretion and risk. Any User requests or input into ECS will not be treated as confidential information.  
 
 The ECS is not designed to comply with any specific governmental regulation or specific security measures. User agrees that no personal data will be input to the ECS, including such that may be subject to European General Data Protection Regulations (GDPR) requirements.  User acknowledges that the use of the ECS meets User's requirements and processing instructions required to comply with applicable laws.
 
-User Feedback on ECS:  The ECS is a service IBM is developing and testing for release as a cloud service. User is authorized to use the ECS for the purpose of evaluating its functionality and to provide feedback on the ECS to IBM and its affiliates, who may use the feedback for any purpose without limitation.  
+<u>User Feedback on ECS</u>:  The ECS is a service IBM is developing and testing for release as a cloud service. User is authorized to use the ECS for the purpose of evaluating its functionality and to provide feedback on the ECS to IBM and its affiliates, who may use the feedback for any purpose without limitation.  
 
-Code:  Code is defined as the content User creates using the ECS, including User’s modifications to Suggestions. IBM does not claim any intellectual property rights with respect to any Suggestions.
+<u>Code</u>:  Code is defined as the content User creates using the ECS, including User’s modifications to Suggestions. IBM does not claim any intellectual property rights with respect to any Suggestions.
 
 ### 2. Right to Use and User Responsibilities
 
@@ -28,7 +28,7 @@ IBM is neither a party to the Red Hat Enterprise Agreement nor the Visual Studio
 
 With respect to Code, User shall apply meaningful testing and human oversight of the Code the User produces while using ECS to find and mitigate errors and vulnerabilities.
 
-The ECS is not designed for use in a production environment or for commercial purposes and any such use is at User’s own risk. If the offering becomes generally available, IBM is under no obligation to offer migration capabilities or services.
+**The ECS is not designed for use in a production environment or for commercial purposes and any such use is at User’s own risk.** If the offering becomes generally available, IBM is under no obligation to offer migration capabilities or services.
 
 ### 3. No Warranties, Service Levels or Technical Support
 
@@ -108,7 +108,7 @@ Both parties agree to the application of the laws of the State of New York, Unit
 
 **Red Hat Ansible Lightspeed with IBM Watson Code Assistant Technical Preview Program Terms**
 
-We are excited that you are interested in participating in this Technical Preview Program (**“Program”**) and as a benefit, receiving access to Red Hat’s preview service that provides guidance on Ansible tasks and other Ansible related content (**“Lightspeed”**) integrated with IBM’s Early Cloud Service for Watson Code Assistant ("ECS") (subject to a separate IBM agreement). The Program gives you access to a preview version of Lightspeed at no cost subject to these terms.  
+We are excited that you are interested in participating in this Technical Preview Program (**“Program”**) and as a benefit, receiving access to Red Hat’s preview service that provides guidance on Ansible tasks and other Ansible related content (**“Lightspeed”**) integrated with IBM’s Early Cloud Service for Watson Code Assistant (**"ECS"**) (subject to a separate IBM agreement). The Program gives you access to a preview version of Lightspeed at no cost subject to these terms.  
 
 These Program Terms govern your use of Lightspeed and are subject to the Red Hat Enterprise Agreement available at http://www.redhat.com/agreements (the **"Agreement"**). When we use a capitalized term without defining it in these Program Terms, the term has the meaning defined in the Agreement. If there is a conflict between these Program Terms and the Agreement, the Program Terms will take precedence. IBM is not a party to the Agreement or these Program Terms.
 
@@ -116,11 +116,10 @@ The Program gives access to a preview version of Lightspeed. Lightspeed passes y
 
 To use Lightspeed, you need to install the Ansible Visual Studio Code extension and authenticate via your GitHub account that you have been authorized to use for this Program. Based on your request, Lightspeed will provide suggested tasks or other Ansible related materials (**"Suggestions"**). By participating in this Program you agree that any and all Suggestions and any data associated with your use, may be used by Red Hat and Red Hat’s affiliated companies, including IBM, for any purpose including to further improve and train Lightspeed and ECS. The following information is collected and may be shared with IBM:
 
-The VS Code extension provides prompts and context to create Suggestions, and user interactions with Suggestions such as acceptance, modification or rejection.
-Lightspeed collects telemetry including Suggestions generated by ECS and refined by post-processing rules, as well as operational information (e.g. service errors and response times).
-
-User feedback regarding user sentiment and recommendations.
-Any program feedback provided directly to Red Hat.
+* The VS Code extension provides prompts and context to create Suggestions, and user interactions with Suggestions such as acceptance, modification or rejection.
+* Lightspeed collects telemetry including Suggestions generated by ECS and refined by post-processing rules, as well as operational information (e.g. service errors and response times).
+* User feedback regarding user sentiment and recommendations.
+* Any program feedback provided directly to Red Hat.
 
 Suggestions may be similar to material used to train the machine learning model. The Suggestions will likely require additional modifications by you to be useful. Suggestions are not considered Red Hat Software and Red Hat does not claim any intellectual property rights with respect to any Suggestions. Your use of Suggestions is at your discretion and risk. Any requests or input into Lightspeed will not be treated as confidential information. Lightspeed is not intended to process personal information, so do not provide personal information except for business contact type information (name, work email address, etc.) associated with this Program. For information on how Red Hat processes your personal information, see the Red Hat Privacy Statement.
 
