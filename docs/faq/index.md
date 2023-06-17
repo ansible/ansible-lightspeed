@@ -83,6 +83,12 @@ train the model.
 
 In general, Ansible Lightspeed with Watson Code Assistant should provide the same response for the same prompt.  This behavior may change over time.
 
+## I got an error "Too many requests to Ansible Lightspeed. Please try again after some time." How long do I need to wait?
+
+The current rate limit per user is 10 requests per minute. After one minute, you will be able to receive suggestions again.
+
+Note we are constantly tweaking the performance of the service as well as monitoring the impact of the rate limit, and this limit may change accordingly over time.
+
 ## I use a proxy server and I am having trouble with Ansible Lightspeed; what do I do to connect?
 
 The VS Code Ansible extension does not directly implement any networking or communication.  If your organization uses a proxy server, then you will need to ensure that your OS settings, browser settings, and VS Code settings properly implement your proxy server.  The configuration will differ per-organization, and is something that your local IT department may need to assist with. You may want to consider the VS Code proxy documents for starting VS Code with different flags in order to properly configure networking.  
