@@ -119,6 +119,6 @@ Contact Us button.
 
 Alternatively, contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.im`][matrix-room].
 
-[galaxy]: https://galaxy.anisble.com
+[galaxy]: https://galaxy.ansible.com
 [gh-license-api]: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
 [matrix-room]: https://matrix.to/#/#ansible-lightspeed:ansible.im
