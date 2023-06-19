@@ -14,7 +14,7 @@ generated content recommendations. When Ansible Lightspeed with Watson Code Assi
 generates a recommendation, it will attempt to find items in the training dataset that closely
 resemble the recommendation. In such cases, Ansible Lightspeed with Watson Code Assistant
 will display licensing information and a source repository link for the training data matches in a
-panel interface in the VS Code extension. Licensing information is determined using the [GitHub license API][gh-lince-api].
+panel interface in the VS Code extension. Licensing information is determined using the [GitHub license API][gh-license-api].
 
 This feature may enable users to ascertain open source license terms that are
 associated with related training data. We have implemented this feature even though we believe
@@ -85,9 +85,9 @@ In general, Ansible Lightspeed with Watson Code Assistant should provide the sam
 
 ## I got an error "Too many requests to Ansible Lightspeed. Please try again after some time." How long do I need to wait?
 
-The current rate limit per user is 10 requests per minute. After one minute, you will be able to receive suggestions again.
+The current per-user rate limit is 10 requests per minute. After one minute, you will be able to receive suggestions again.
 
-Note we are constantly tweaking the performance of the service as well as monitoring the impact of the rate limit, and this limit may change accordingly over time.
+**Note:** we are constantly tweaking the performance of the service and monitoring the impact of the rate limit. This limit may change over time.
 
 ## I use a proxy server and I am having trouble with Ansible Lightspeed; what do I do to connect?
 
@@ -105,6 +105,12 @@ Ansible Lightspeed with Watson Code Assistant will work behind a proxy server pr
 * VS Code Insiders
 * VS Codium
 
+Server-hosted derivatives of VS Code, such as code-server are not supported at this time.
+
+## Can I use a GitHub Enterprise account?
+
+The Ansible Lightspeed Technical Preview will only work with a public github.com account.  GitHub Enterprise authentication is not supported.
+
 ## I need more help. Where can I go?
 
 The Ansible VS Code extension provides a Contact Us link on the right-hand side of VS Code
@@ -114,5 +120,5 @@ Contact Us button.
 Alternatively, contact us in the [Ansible Lightspeed with Watson Code Assistant Matrix room: `#ansible-lightspeed:ansible.im`][matrix-room].
 
 [galaxy]: https://galaxy.anisble.com
-[gh-lince-api]: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
+[gh-license-api]: https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
 [matrix-room]: https://matrix.to/#/#ansible-lightspeed:ansible.im

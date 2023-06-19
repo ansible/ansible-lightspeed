@@ -2,17 +2,18 @@
 
 You need the latest version of the Ansible VS Code extension to access Ansible Lightspeed with Watson Code Assistant functionality.
 
-Prerequisites
+## Prerequisites
 
-* You have [installed VS Code][vs-code]. A minimum version of 1.70.1 is required.
+* [VS Code][vs-code] or a [supported derivative](../faq/index.md#what-derivatives-of-vs-code-are-supported).
+* Minimum version 1.70.1.
 
-To install this extension:
+## Extension Installation
 
 1. Open VS Code.
 
-      ```bash
-      code .
-      ```
+    ```bash
+    code .
+    ```
 
 2. Click the **Extensions** icon on the left sidebar.
 3. Search for **Ansible** in the search box.
@@ -33,21 +34,23 @@ To configure the Ansible VS Code extension for Ansible Lightspeed with Watson Co
 
 1. Open VS Code.
 
-      ```bash
-      code .
-      ```
+    ```bash
+    code .
+    ```
 
 2. Click **File>Preferences>Settings**.
 3. In the Search settings bar, type `lightspeed`.
 4. Check all of the following boxes if they are not already selected:
     1. **Ansible>Lightspeed**: Enabled.
     2. **Ansible>Lightspeed>Suggestions**: Enabled.
-5. In **Ansible>Lightspeed: Base Path**, enter the following: [http://c.ai.ansible.redhat.com/][base-path].
+5. In **Ansible>Lightspeed: Base Path**, enter the following: [http://c.ai.ansible.redhat.com/][base-path]
 6. Close the **Settings** tab.
 7. Open the **Ansible** side bar icon on the left-hand side of the Visual Studio Code interface and click **Connect**.
-8. Follow the prompts to sign in to Ansible Lightspeed with Watson Code Assistant using your GitHub credentials.
+8. Follow the prompts to sign in to Ansible Lightspeed with Watson Code Assistant using your GitHub credentials[^1].
 9. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Ansible Lightspeed with Watson Code Assistant on your behalf.
-10. Upon successful completion of the login flow, you should see a “Logged in as <your GitHub id>” message in the Ansible side bar.
+10. Upon successful completion of the login flow, you should see a “Logged in as \<your GitHub id\>” message in the Ansible side bar.
+
+[^1]: Ansible Lightspeed currently supports public github.com accounts. Enterprise GitHub accounts will not be able to login to the service.
 
 [vs-code]: https://code.visualstudio.com/
 [base-path]: http://c.ai.ansible.redhat.com/
