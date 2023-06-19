@@ -27,7 +27,6 @@ The Ansible VS Code extension, with Ansible Lightspeed with Watson Code Assistan
 | Anonymized user id                                                              | Captured at (~/.redhat/anonymousid).  |
 | Anonymized suggestion id                                                        | Auto-generated session id associated with service request.  |
 
-
 ## Terms of service
 
 [Click here][terms] to view the Ansible Lightspeed with Watson Code Assistant terms of service.
