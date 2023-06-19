@@ -7,7 +7,7 @@ You need the latest version of the Ansible VS Code extension to access Ansible L
 * [VS Code][vs-code] or a [supported derivative](../faq/index.md#what-derivatives-of-vs-code-are-supported).
 * Minimum version 1.70.1.
 
-## Extension Installation
+## Extension installation
 
 1. Open VS Code.
 
