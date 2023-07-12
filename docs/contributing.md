@@ -22,6 +22,6 @@ Ansible Galaxy users may choose to exclude their content as follows:
 
 Once you set your include/exclude preferences for your namespaces, your content will be added or removed from the Ansible Lightspeed with Watson Code Assistant [model training][model-training] during the next iteration of model training.
 
-[beta-galaxy]: https://beta-galaxy-dev.ansible.com/ui/
+[beta-galaxy]: https://beta-galaxy.ansible.com/ui/
 [galaxy-ng]: https://galaxyng.netlify.app/
 [model-training]: machine_learning.md#model-training
