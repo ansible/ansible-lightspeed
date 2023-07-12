@@ -43,14 +43,24 @@ To configure the Ansible VS Code extension for Ansible Lightspeed with Watson Co
 4. Check all of the following boxes if they are not already selected:
     1. **Ansible>Lightspeed**: Enabled.
     2. **Ansible>Lightspeed>Suggestions**: Enabled.
-5. In **Ansible>Lightspeed: Base Path**, enter the following: [http://c.ai.ansible.redhat.com/][base-path]
+5. In **Ansible>Lightspeed: Base Path**, enter the following: [https://c.ai.ansible.redhat.com/][base-path] [^1]
 6. Close the **Settings** tab.
-7. Open the **Ansible** side bar icon on the left-hand side of the Visual Studio Code interface and click **Connect**.
-8. Follow the prompts to sign in to Ansible Lightspeed with Watson Code Assistant using your GitHub credentials[^1].
-9. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Ansible Lightspeed with Watson Code Assistant on your behalf.
-10. Upon successful completion of the login flow, you should see a “Logged in as \<your GitHub id\>” message in the Ansible side bar.
 
-[^1]: Ansible Lightspeed currently supports public github.com accounts. Enterprise GitHub accounts will not be able to login to the service.
+## Logging In to Ansible Lightspeed
+
+1. Open the **Ansible** extension icon on the left-hand side of the Visual Studio Code interface and click **Connect**.
+2. Follow the prompts to sign in to Ansible Lightspeed with Watson Code Assistant using your GitHub credentials.[^2]
+3. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Ansible Lightspeed with Watson Code Assistant on your behalf.
+4. Upon successful completion of the login flow, you should see a “Logged in as \<your GitHub id\>” message in the Ansible side bar.
+
+## Logging Out of Ansible Lightspeed
+
+To logout of Ansible Lightspeed, click on the "person" icon in the bottom-left panel of the VS Code window.  This icon will have a list of accounts that VS Code is logged into.  Click "Ansible Lightspeed", then "Logout" to logout of the service.
+
+You may log back into the service at any time.
+
+[^1]: All communication to the Ansible Lightspeed service happens over HTTPS and is encrypted in-transit.
+[^2]: Ansible Lightspeed currently supports public github.com accounts. Enterprise GitHub accounts will not be able to login to the service.
 
 [vs-code]: https://code.visualstudio.com/
-[base-path]: http://c.ai.ansible.redhat.com/
+[base-path]: https://c.ai.ansible.redhat.com/
