@@ -11,7 +11,7 @@ Ansible Lightspeed with Watson Code Assistant intends to be your expert referenc
 
 ## Understanding data telemetry
 
-The Ansible VS Code extension, with Ansible Lightspeed with Watson Code Assistant features enabled, automatically collects recommendations, usage telemetry, and playbook state through automated events. Telemetry regarding how Ansible Lightspeed with Watson Code Assistant is used is an important data that allows Red Hat to improve the service over time. The following table identifies all of the data collected from the VS Code extension and returned to Ansible Lightspeed with Watson Code Assistant.
+The Ansible VS Code extension, with Ansible Lightspeed with Watson Code Assistant features enabled, automatically collects recommendations, usage telemetry, and playbook state through automated events. Ansible Lightspeed with Watson Code Assistant telemetry is used allows Red Hat to improve the service over time. The following table identifies all of the data collected from the VS Code extension and returned to Ansible Lightspeed with Watson Code Assistant.
 
 Telemetry collected will be shared with Red Hat and IBM.  You can opt out of this data being provided back to Ansible Lightspeed with Watson Code Assistant by disabling the Ansible Lightspeed with Watson Code Assistant setting in the Ansible VS Code extension. Opting-out of telemetry does not remove telemetry data already sent to Red Hat and IBM.
 
