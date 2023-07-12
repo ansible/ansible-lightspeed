@@ -120,7 +120,9 @@ The Ansible Lightspeed Technical Preview will only work with a public github.com
 
 ## What do Red Hat and IBM do with the permissions granted to the GitHub OAuth application used to sign in?
 
-Ansible Lightspeed uses GitHub accounts for authorization purposes at this time.  GitHub requires that an OAuth application request a minimum set of permissions in order to exist as a connected application.  
+Ansible Lightspeed uses GitHub accounts for authorization purposes as the identity provider.  GitHub is not used to store or manage any data related to the service.
+
+GitHub requires that an OAuth application request a minimum set of permissions in order to exist as a connected application.  
 
 The permissions `Read org and team membership, read org projects` allow Ansible Lightspeed to verify participants in the closed beta program; those users belong to a specific team that is verified upon authorization.  Ansible Lightspeed does not use the permission to read other organizational repository data or use GitHub API data for any other purpose.
 
