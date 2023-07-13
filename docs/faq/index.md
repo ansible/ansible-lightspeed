@@ -124,7 +124,7 @@ Ansible Lightspeed uses GitHub accounts for authorization purposes as the identi
 
 GitHub requires that an OAuth application request a minimum set of permissions in order to exist as a connected application.  
 
-Ansible Lightspeed does not use OAuth permissions to read other organizational repository data or use GitHub API data for any other purpose.  It is only used for authentication.
+Ansible Lightspeed does not use OAuth permissions to read organizational repository data or use GitHub API data for any other purpose.  GitHub is only used for authentication and your GitHub username is used as your username for access to Ansible Lightspeed.
 
 ## What is the content matching score and how is it calculated?
 
