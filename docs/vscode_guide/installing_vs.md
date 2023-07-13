@@ -58,10 +58,10 @@ To configure the Ansible VS Code extension for Ansible Lightspeed with Watson Co
 To logout of Ansible Lightspeed, follow these steps:
 
 1. Click on the "person" icon in the bottom-left panel of the VS Code window.  This icon will have a list of accounts that VS Code is logged into.  
-2. Click "Ansible Lightspeed", then "Logout" to logout of the service.
+2. Click "Ansible Lightspeed", then "Sign Out" to logout of the service.
 3. Open your browser.
 4. Navigate to [https://c.ai.ansible.redhat.com/][base-path].
-5. Click "Logout".
+5. Click "Log out".
 
 These steps in both VS Code and your web browser will ensure that you are completely logged out of Ansible Lightspeed.
 
