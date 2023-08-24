@@ -1,6 +1,6 @@
 # Installing the Ansible VS Code extension
 
-You need the latest version of the Ansible VS Code extension to access Ansible Lightspeed with Watson Code Assistant functionality.
+You need the latest version of the Ansible VS Code extension to access Ansible Lightspeed with IBM watsonx Code Assistant functionality.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ from the dropdown.
 
 ## Configuring the Ansible VS Code extension
 
-To configure the Ansible VS Code extension for Ansible Lightspeed with Watson Code Assistant:
+To configure the Ansible VS Code extension for Ansible Lightspeed with IBM watsonx Code Assistant:
 
 1. Open VS Code.
 
@@ -49,8 +49,8 @@ To configure the Ansible VS Code extension for Ansible Lightspeed with Watson Co
 ## Logging In to Ansible Lightspeed
 
 1. Open the **Ansible** extension icon on the left-hand side of the Visual Studio Code interface and click **Connect**.
-2. Follow the prompts to sign in to Ansible Lightspeed with Watson Code Assistant using your GitHub credentials.[^2]
-3. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Ansible Lightspeed with Watson Code Assistant on your behalf.
+2. Follow the prompts to sign in to Ansible Lightspeed with IBM watsonx Code Assistant using your GitHub credentials.[^2]
+3. Carefully review the Terms and **Agree** or **Disagree**. If you click Disagree, you will not be able to complete the login. Lastly, follow the prompt to allow VSCode to interact with Ansible Lightspeed with IBM watsonx Code Assistant on your behalf.
 4. Upon successful completion of the login flow, you should see a “Logged in as \<your GitHub id\>” message in the Ansible side bar.
 
 ## Logging Out of Ansible Lightspeed

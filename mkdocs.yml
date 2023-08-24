@@ -1,5 +1,5 @@
 ---
-site_name: Ansible Lightspeed with Watson Code Assistant
+site_name: Ansible Lightspeed with IBM watsonx Code Assistant
 site_url: https://docs.ai.ansible.redhat.com/
 repo_url: https://github.com/ansible/ansible-lightspeed
 edit_uri: blob/main/docs/
@@ -37,7 +37,7 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Ansible Lightspeed with Watson Code Assistant:
+  - Ansible Lightspeed with IBM watsonx Code Assistant:
       - home: index.md
       - introduction.md
       - contributing.md

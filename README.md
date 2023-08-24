@@ -1,4 +1,6 @@
-# Ansible Lightspeed with Watson Code Assistant
+# Ansible Lightspeed with IBM watsonx Code Assistant
+
+This repository contains product documentation for the technical preview of Ansible Lightspeed with IBM watsonx Code Assistant.
 
 ## Building docs
 

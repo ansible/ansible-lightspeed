@@ -1,8 +1,8 @@
 # Terms of Service
 
-## IBM Watson Code Assistant Terms of Service
+## IBM watsonx Code Assistant Terms of Service
 
-We are excited that you are interested in participating in this Tech Preview and as a benefit, receiving access to IBM’s Early Cloud Service for Watson Code Assistant (“Early Cloud Service” or “ECS.”)  User may use the ECS at no cost subject to the terms of this Agreement (“Agreement”).
+We are excited that you are interested in participating in this Tech Preview and as a benefit, receiving access to IBM’s Early Cloud Service for IBM watsonx Code Assistant (“Early Cloud Service” or “ECS.”)  User may use the ECS at no cost subject to the terms of this Agreement (“Agreement”).
 
 **BY USING THE ECS, USER SIGNIFY YOUR ACCEPTANCE OF THE AGREEMENT AND ACKNOWLEDGE YOU HAVE READ AND UNDERSTAND THE AGREEMENT TERMS. IF YOU DO NOT ACCEPT THE AGREEMENT TERMS, THEN DO NOT USE THE ECS.**
 
@@ -109,9 +109,9 @@ Both parties agree to the application of the laws of the State of New York, Unit
 
 ## Red Hat Terms of Service
 
-**Red Hat Ansible Lightspeed with IBM Watson Code Assistant Technical Preview Program Terms**
+**Red Hat Ansible Lightspeed with IBM watsonx Code Assistant Technical Preview Program Terms**
 
-We are excited that you are interested in participating in this Technical Preview Program (**“Program”**) and as a benefit, receiving access to Red Hat’s preview service that provides guidance on Ansible tasks and other Ansible related content (**“Lightspeed”**) integrated with IBM’s Early Cloud Service for Watson Code Assistant (**"ECS"**) (subject to a separate IBM agreement). The Program gives you access to a preview version of Lightspeed at no cost subject to these terms.  
+We are excited that you are interested in participating in this Technical Preview Program (**“Program”**) and as a benefit, receiving access to Red Hat’s preview service that provides guidance on Ansible tasks and other Ansible related content (**“Lightspeed”**) integrated with IBM’s Early Cloud Service for IBM watsonx Code Assistant (**"ECS"**) (subject to a separate IBM agreement). The Program gives you access to a preview version of Lightspeed at no cost subject to these terms.  
 
 These Program Terms govern your use of Lightspeed and are subject to the Red Hat Enterprise Agreement available at [https://www.redhat.com/agreements][redhat-agreements] (the **"Agreement"**). When we use a capitalized term without defining it in these Program Terms, the term has the meaning defined in the Agreement. If there is a conflict between these Program Terms and the Agreement, the Program Terms will take precedence. IBM is not a party to the Agreement or these Program Terms.
 
