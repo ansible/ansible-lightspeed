@@ -1,7 +1,7 @@
 
 # Introduction to Ansible Lightspeed with IBM watsonx Code Assistant
 
-Ansible Lightspeed with IBM watsonx Code Assistant is a joint project between IBM and Red Hat that offers access to Ansible content recommendations through the use of natural language automation descriptions. This project is accessible through the integration of an IBM AI cloud service operated by Red Hat and the Ansible VSCode plugin, and is offered to the Ansible community to use, without cost. This service uses, among other data, roles and collections that are available through the community website, [Ansible Galaxy][galaxy].
+Ansible Lightspeed with IBM watsonx Code Assistant is a joint project between IBM and Red Hat that offers access to Ansible content recommendations through the use of natural language automation descriptions. This project is accessible through the integration of an IBM AI cloud service operated by Red Hat and the Ansible VS Code plugin, and is offered to the Ansible community to use, without cost. This service uses, among other data, roles and collections that are available through the community website, [Ansible Galaxy][galaxy].
 
 This documentation covers how to use Ansible Lightspeed with IBM watsonx Code Assistant to help you write automation content, how to participate in model training through Ansible Galaxy settings, and how Red Hat uses machine learning to create content recommendations.
 
