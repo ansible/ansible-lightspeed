@@ -3,3 +3,5 @@ venv
 # Docs build artifacts
 site
 .cache
+.vale/styles/*
+!.vale/styles/Vocab
